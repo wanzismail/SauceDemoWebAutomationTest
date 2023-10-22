@@ -37,13 +37,13 @@ public class login {
 
     @And("Input password")
     public void input_password(){
-        // find element by id 'password' to send key 'standard_user'
+        // find element by id 'password' to send key 'secret_sauce'
         webDriver.findElement(By.id("password")).sendKeys("secret_sauce");
     }
 
     @And("Input wrong password")
     public void input_wrong_password(){
-        // find element by id 'password' to send key 'standard_user'
+        // find element by id 'password' to send key 'secret_123'
         webDriver.findElement(By.id("password")).sendKeys("secret_123");
     }
 

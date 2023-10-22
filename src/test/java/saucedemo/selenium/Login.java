@@ -30,7 +30,7 @@ public class Login {
 
         // find element by id 'user-name' to send key 'standard_user'
         webDriver.findElement(By.id("user-name")).sendKeys("standard_user");
-        // find element by id 'password' to send key 'standard_user'
+        // find element by id 'password' to send key 'secret_sauce'
         webDriver.findElement(By.id("password")).sendKeys("secret_sauce");
         // find element by id 'login-button' to perform action click
         webDriver.findElement(By.id("login-button")).click();
@@ -48,7 +48,7 @@ public class Login {
 
         // find element by id 'user-name' to send key 'standard_user'
         webDriver.findElement(By.id("user-name")).sendKeys("standard_user");
-        // find element by id 'password' to send key 'standard_user'
+        // find element by id 'password' to send key 'secret_123'
         webDriver.findElement(By.id("password")).sendKeys("secret_123");
         // find element by id 'login-button' to perform action click
         webDriver.findElement(By.id("login-button")).click();

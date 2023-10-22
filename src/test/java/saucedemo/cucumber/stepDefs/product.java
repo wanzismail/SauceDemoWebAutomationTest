@@ -37,14 +37,8 @@ public class product {
 
     @And("Product - Input password")
     public void checkout_input_password(){
-        // find element by id 'password' to send key 'standard_user'
+        // find element by id 'password' to send key 'secret_sauce'
         webDriver.findElement(By.id("password")).sendKeys("secret_sauce");
-    }
-
-    @And("Product - Input wrong password")
-    public void checkout_input_wrong_password(){
-        // find element by id 'password' to send key 'standard_user'
-        webDriver.findElement(By.id("password")).sendKeys("secret_123");
     }
 
     @And("Product - Click login button")

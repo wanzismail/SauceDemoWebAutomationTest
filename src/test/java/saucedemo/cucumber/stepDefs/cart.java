@@ -38,14 +38,8 @@ public class cart {
 
     @And("Cart - Input password")
     public void checkout_input_password(){
-        // find element by id 'password' to send key 'standard_user'
+        // find element by id 'password' to send key 'secret_sauce'
         webDriver.findElement(By.id("password")).sendKeys("secret_sauce");
-    }
-
-    @And("Cart - Input wrong password")
-    public void checkout_input_wrong_password(){
-        // find element by id 'password' to send key 'standard_user'
-        webDriver.findElement(By.id("password")).sendKeys("secret_123");
     }
 
     @And("Cart - Click login button")
@@ -94,7 +88,6 @@ public class cart {
         }
         Assert.assertEquals(false, haveRemoveButton);
 
- 
         webDriver.close(); // close web driver
     }
 }
