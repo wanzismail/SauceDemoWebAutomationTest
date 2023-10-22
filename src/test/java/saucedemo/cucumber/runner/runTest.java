@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
     features = "src/test/java/saucedemo/cucumber/features",
-    glue = "saucedemo.cucumber.stepDef",
+    glue = "saucedemo.cucumber.stepDefs",
     plugin = {"html:target/HTML_report.html"}
 )
 public class runTest {

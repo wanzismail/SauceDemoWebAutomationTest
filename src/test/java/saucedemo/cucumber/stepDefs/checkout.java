@@ -1,4 +1,4 @@
-package saucedemo.cucumber.stepDef;
+package saucedemo.cucumber.stepDefs;
 
 import java.util.concurrent.TimeUnit;
 
